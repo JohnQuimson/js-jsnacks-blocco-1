@@ -13,6 +13,8 @@ if (lungh1 === lungh2) {
   console.log('Le parole sono lunghe uguali');
 } else if (lungh1 > lungh2) {
   console.log(input1);
+  console.log(input2);
 } else {
   console.log(input2);
+  console.log(input1);
 }
