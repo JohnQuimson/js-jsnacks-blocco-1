@@ -10,11 +10,13 @@ const lungh2 = input2.length;
 
 //Condizioni
 if (lungh1 === lungh2) {
-  console.log('Le parole sono lunghe uguali');
+  console.log('Le parole sono lunghe uguali - Lunghezza: ' + lungh1);
 } else if (lungh1 > lungh2) {
-  console.log(input2);
-  console.log(input1);
+  console.log('Parola 1: ' + input2 + '- Lunghezza: ' + lungh2);
+  console.log('Parola 2: ' + input1 + '- Lunghezza: ' + lungh1);
+  console.log('La parola 1 è più lunga della parola 2');
 } else {
-  console.log(input1);
-  console.log(input2);
+  console.log('Parola 1: ' + input1 + '- Lunghezza: ' + lungh1);
+  console.log('Parola 2: ' + input2 + '- Lunghezza: ' + lungh2);
+  console.log('La parola 2 è più lunga della parola 1');
 }
