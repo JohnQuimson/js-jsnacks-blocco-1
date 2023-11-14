@@ -3,7 +3,7 @@
 const inputUtente = Number(prompt('Quanti N array vuoi generare ?'));
 
 //verifica che l'input sia un numero
-if (!isNaN) {
+if (!isNaN(inputUtente)) {
   //Genero inputUtente array
   for (let i = 0; i < inputUtente; i++) {
     const myArray = [];
